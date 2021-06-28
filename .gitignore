@@ -11,3 +11,10 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 
+/.idea/codeStyles/codeStyleConfig.xml
+/composer.phar
+/.idea/modules.xml
+/.idea/php.xml
+/.idea/phpunit.xml
+/.idea/tour3d.iml
+/.idea/vcs.xml
