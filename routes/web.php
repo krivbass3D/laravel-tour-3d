@@ -21,7 +21,7 @@ Route::group([
     'namespace' => 'Blog',
     'prefix' =>'blog'],
     function (){
-    Route::resource('','PanoramaController')->names('blog.panoramas');
+    Route::resource('panoramas','PanoramaController')->names('blog.panoramas');
     }
 );
 

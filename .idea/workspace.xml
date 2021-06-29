@@ -10,14 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eafe2a3d-1387-46bf-8a67-de2f603d154b" name="Default Changelist" comment="Миграция табл панорам и объектов">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Blog/BaseController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Blog/PanoramaController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/RestTestController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_06_28_191237_change_to_tour_panoramas.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/blog/panoramas/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="eafe2a3d-1387-46bf-8a67-de2f603d154b" name="Default Changelist" comment="Миграция в табл панорам к колонкам кратинка добавлено знач Null&#10;Добавлен вывод всех панорам (урок 10)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/TourBranch.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/TourBranch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/TourPanorama.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/TourPanorama.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +181,8 @@
       <workItem from="1623691278894" duration="4502000" />
       <workItem from="1624338134208" duration="277000" />
       <workItem from="1624386831772" duration="98000" />
-      <workItem from="1624902965014" duration="3914000" />
+      <workItem from="1624902965014" duration="4261000" />
+      <workItem from="1624942881403" duration="1374000" />
     </task>
     <task id="LOCAL-00001" summary="init только laravel">
       <created>1623689748515</created>
@@ -208,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624338245578</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Миграция в табл панорам к колонкам кратинка добавлено знач Null&#10;Добавлен вывод всех панорам (урок 10)">
+      <created>1624909112236</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624909112236</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,13 +233,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init только laravel" />
     <MESSAGE value="Миграция табл панорам и объектов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Миграция табл панорам и объектов" />
+    <MESSAGE value="Миграция в табл панорам к колонкам кратинка добавлено знач Null&#10;Добавлен вывод всех панорам (урок 10)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Миграция в табл панорам к колонкам кратинка добавлено знач Null&#10;Добавлен вывод всех панорам (урок 10)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="715" y="348" key="#Notifications" timestamp="1623691292548">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="715" y="348" key="#Notifications/0.0.1920.1050/1920.0.1280.994@0.0.1920.1050" timestamp="1623691292548" />
+    <state x="690" y="279" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1624943510259">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="690" y="279" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050/1920.0.1280.994@0.0.1920.1050" timestamp="1624943510259" />
     <state x="794" y="448" key="NewPhpFileDialog" timestamp="1624908321013">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -244,9 +253,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050/1920.0.1280.994@0.0.1920.1050" timestamp="1623691261682" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1624338378694">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1624909117776">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1280.994@0.0.1920.1050" timestamp="1624338378694" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1280.994@0.0.1920.1050" timestamp="1624909117776" />
   </component>
 </project>
